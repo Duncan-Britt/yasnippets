@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: parens
+# key: ;p
+# --
+
+\left( $0 \right)

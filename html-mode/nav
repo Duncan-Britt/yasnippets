@@ -1,0 +1,6 @@
+# key: ;nav
+# name: nav
+# --
+<nav>
+  $0
+</nav>

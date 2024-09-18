@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: overset
+# key: ;os
+# --
+
+\overset{${1:\tt IH}}{${2:=}} $0

@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: table
+# key: ;table
+# --
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline$0
+Column 1 & Column 2 \\\
+\hline
+Row 1, Cell 1 & Row 1, Cell 2 \\\
+\hline
+Row 2, Cell 1 & Row 2, Cell 2 \\\
+\hline
+Row 3, Cell 1 & Row 3, Cell 2 \\\
+\hline
+\end{tabular}
+\end{center}

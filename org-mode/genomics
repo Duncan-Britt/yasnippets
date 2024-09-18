@@ -1,0 +1,63 @@
+# key: ;genomics
+# name: genomics
+# --
+#+TITLE: ${1:Title Here}
+#+AUTHOR: Duncan Britt
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt, letterpaper]
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{placeins}
+#               defines the \FloatBarrier command
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \setstretch{1.2}
+#+LaTeX_HEADER: \usepackage{hyperref}
+#+LaTeX_HEADER: \hypersetup{pdfborder={0 0 0}} %% Set PDF link border to 0 (zero)
+
+# Tip: Reduce jargon and define jargon terms.
+* Introduction
+# 1. What are we looking at? Why should the reader care?
+# 2. What did you do?
+# 3. What did you find? (One or two sentences).
+
+$0
+
+* Results
+
+\FloatBarrier
+
+** Instructions                                                   :noexport:
+- You need to have nice figures
+  - axes need to be labelled
+  - axes need units
+  - clearly labelled legend
+  - Other info about the figure in the caption. *Use concise, short captions.*
+- Lead with the punchline.
+
+Figure:
+# #+CAPTION: Queries and Database sampled from different word lists.
+# #+ATTR_ORG: :width 500
+# #+NAME: fig:new_qset
+# [[./query_set_isnt_db_set.png]]
+* Methods
+
+** Notes                                                          :noexport:
+** Instructions                                             :noexport:
+We're not expected to do runtime analysis, though we can.
+Describe in simple english, what the algorithm does, step by step.
+
+- Clearly define your algorithms
+- Clearly define your experiments
+- Reproducibility is the last subsection, but there could be other subsections as needed.
+*** Reproducibility
+Clearly show the commands needed to reproduce the results, e.g.
+
+#+BEGIN_SRC sh
+  git clone blah blah blah
+  python3 experimient.py --arg1 4 --arg2 8
+#+END_SRC
+
+
+
+
+

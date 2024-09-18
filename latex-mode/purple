@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: purple
+# key: ;purple
+# --
+
+\color{Mulberry} $0 \color{Black}

@@ -1,0 +1,8 @@
+# key: ;cpp
+# name: cpp
+# --
+#!/bin/sh
+
+set -xe
+
+clang++ -o ${1:app} -std=c++20 -stdlib=libc++ ${0:main.cpp}

@@ -1,0 +1,4 @@
+# key: ;ep
+# name: epigraph-quote
+# --
+\epigraph{${1:text}}{\textit{${2:caption}}}

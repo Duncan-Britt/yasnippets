@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: author-2
+# key: ;auth
+# --
+#+author: $0

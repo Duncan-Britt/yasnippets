@@ -1,0 +1,6 @@
+# key: ;ai
+# name: ai
+# --
+#+begin_ai $1
+$0        
+#+end_ai

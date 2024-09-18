@@ -1,0 +1,43 @@
+# key: ;table
+# name: table
+# --
+<table>
+<caption>
+
+</caption>
+<thead>
+<tr>
+<th scope="col"></th>
+<th scope="col"></th>
+<th scope="col"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Chris</th>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope="row"></th>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope="row"></th>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope="row"></th>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th scope="row" colspan="2"></th>
+<td></td>
+</tr>
+</tfoot>
+</table>

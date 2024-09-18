@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: attr_org2
+# key: ;ao
+# --
+#+attr_org: :${1:width} $0

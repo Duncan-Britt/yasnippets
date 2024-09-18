@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: subtitle-2
+# key: ;sub
+# --
+#+subtitle: $0

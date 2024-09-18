@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: blog
+# key: <b
+# --
+
+#+TITLE: ${1:title}
+#+SETUPFILE: ../../../setup/blog-post.setup
+#+DATE: <${2:YYYY}-${3:MM}-${4:DD}>
+#+FILETAGS: :${5:tag}:
+
+$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: logarithm
+# key: ;lo
+# --
+
+\log_{$1} $0

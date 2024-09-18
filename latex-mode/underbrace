@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: underbrace
+# key: ;ub
+# --
+
+\underbrace{$1}_{\text{$2}} $0

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: form
+# key: ;form
+# --
+<form action="/login" method="post" class="form-example">
+<div class="form-group">
+<label for="email">Email Address</label>
+<input type="email" name="email" id="email" required />
+</div>        
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>

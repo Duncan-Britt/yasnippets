@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: attr_org
+# key: ;attr_org
+# --
+#+attr_org: $0

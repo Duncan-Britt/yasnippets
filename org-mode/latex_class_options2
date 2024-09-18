@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: latex_class_options2
+# key: ;lco
+# --
+#+latex_class_options: [${0:a4paper,11pt,twoside,twocolumn}]

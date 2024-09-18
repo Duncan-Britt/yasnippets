@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: april
+# key: ;april
+# --
+#+BEGIN_SRC lisp :results output :session *apl*
+(ql:quickload 'april)
+(in-package #:april)
+(april "
+$0
+")
+#+END_SRC

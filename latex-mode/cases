@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: cases
+# key: ;cases
+# --
+
+\begin{cases}
+${1:\Theta(1)} & : ${2:n \leq 1}, \\\
+${3:2T(n/2) + \Theta(n)} & : ${4:n > 1}
+\end{cases} $0

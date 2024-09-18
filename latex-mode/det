@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: det
+# key: ;det
+# --
+\mathrm{det}($1) $0

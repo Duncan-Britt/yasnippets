@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: header
+# key: ;h
+# --
+
+#ifndef guard_${1:name}_h
+#define guard_$1_h
+
+$0
+
+#endif/*guard_$1_h*/
