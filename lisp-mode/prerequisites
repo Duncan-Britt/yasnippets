@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: prerequisites
+# key: ;p
+# --
+:prerequisites $0

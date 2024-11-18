@@ -1,0 +1,7 @@
+# key: ;d
+# name: define-course
+# --
+(define-course :${1:code}
+  :name "${2:name}"
+  :description '(("Description" . "$0"))
+  :hours ${3:3})

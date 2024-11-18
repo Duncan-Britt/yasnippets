@@ -2,4 +2,5 @@
 # name: input
 # key: ;input
 # --
-<input type="email" name="email" id="email" required />
+<label for="${1:peas}">${3:Do you like peas?}</label>
+<input type="${2:checkbox}" name="$1" id="$1" />$0

@@ -1,0 +1,14 @@
+# key: ;foldable
+# name: foldable
+# --
+#+begin_export html
+<div class="foldable">
+<div class="foldable-toggle-bar">
+<label for="${1:peas}">${2:Caption for Content}</label>
+<input type="checkbox" name="$1" id="$1" />$0
+</div>
+#+end_export
+$0
+#+begin_export html
+</div>
+#+end_export

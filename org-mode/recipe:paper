@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: recipe:paper
+# key: ;recipe:paper
+# --
+#+title: ${1:Title}
+#+author: ${2:Duncan Britt}
+#+options: toc:nil num:nil
+#+latex_class_options: [a4paper,11pt,twoside,twocolumn]
+# To set the margins:
+#+latex_header: \usepackage[margin=1in]{geometry}
+# To enable \FloatBarrier:
+#+latex_header: \usepackage{placeins}
+# To decrease/set the vertical space between the top of the page and the title:
+#+latex_header: \usepackage{titling}
+#+latex_header: \setlength{\droptitle}{-5em}
+# Edward Tuftian (Bembo-like) font:
+#+latex_header: \usepackage{ETbb}
+# To set the vertical line spacing
+#+latex_header: \usepackage{setspace}
+# #+latex_header: \setstretch{1.00}
+# To enable fancy named colors, as in https://steeven9.github.io/USI-LaTeX/html/packages_hyperref_babel_xcolor3.html
+#+latex_header: \usepackage[usenames,dvipsnames]{xcolor}
+# To modify link styles via the hyperref package options:
+#+latex_header: \hypersetup{linktoc = all, colorlinks = true, linkcolor = black}
+
+$0

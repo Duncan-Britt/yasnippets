@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: blog
-# key: <b
+# name: recipe:blog
+# key: ;recipe:blog
 # --
 
 #+TITLE: ${1:title}

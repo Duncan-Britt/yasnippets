@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: integral-pipe
+# key: ;|
+# --
+\left. \left( $0 \right) \right|_${1:a}^${2:b}
