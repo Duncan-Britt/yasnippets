@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: use_module
+# key: ;um
+# --
+
+:- use_module($1).
+$0

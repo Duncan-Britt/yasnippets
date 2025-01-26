@@ -3,6 +3,6 @@
 # key: ;src
 # --
 
-#+begin_src ${1:ruby} :async
+#+begin_src ${1:lisp} :async
 $0
 #+end_src

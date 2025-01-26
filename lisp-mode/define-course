@@ -3,5 +3,8 @@
 # --
 (define-course :${1:code}
   :name "${2:name}"
-  :description '(("Description" . "$0"))
+  :description '(("Description" . "$4")
+                 ("Requisites" . "$5")
+                 ("Grading Basis" . "Letter Grade"))
+  :prerequisites '(all $0)
   :hours ${3:3})

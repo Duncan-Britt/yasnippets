@@ -1,0 +1,51 @@
+# key: ;recipe:hsf
+# name: recipe:human-space-flight
+# --
+#+title: ${1:A Journey to the Moon}
+#+author: ${2:Duncan Britt}
+#+options: toc:nil num:nil author:nil date:nil
+#+latex_class_options: [letterpaper,12pt,twoside]
+# To set the margins:
+#+latex_header: \usepackage[margin=1in]{geometry}
+# To enable \FloatBarrier:
+#+latex_header: \usepackage{placeins}
+# To decrease/set the vertical space between the top of the page and the title:
+#+latex_header: \usepackage{titling}
+#+latex_header: \setlength{\droptitle}{-3em}
+# Edward Tuftian (Bembo-like) font:
+#+latex_header: \usepackage{ETbb}
+# To set the vertical line spacing
+#+latex_header: \usepackage{setspace}
+#+latex_header: \setstretch{1.00}
+# To enable fancy named colors, as in https://steeven9.github.io/USI-LaTeX/html/packages_hyperref_babel_xcolor3.html
+#+latex_header: \usepackage[usenames,dvipsnames]{xcolor}
+# To modify link styles via the hyperref package options:
+#+latex_header: \hypersetup{linktoc = all, colorlinks = true, linkcolor = blue, citecolor = blue}
+#+latex_header: \usepackage{fancyhdr}
+#+bibliography: hw1.bib
+
+#+begin_export latex
+\vspace{-8em}
+\thispagestyle{fancy}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+
+\fancyhead[L]{
+  ASEN 3036 Introduction to Human Spaceflight\\\\
+  Homework $3\\\\}
+
+\fancyhead[R]{\textit{$1}\\\\
+  $2\\\\
+  \today}
+
+\setlength{\headheight}{40pt}
+\setlength{\headsep}{20pt}
+
+\renewcommand{\headrulewidth}{0pt}  % Remove the header line
+#+end_export
+
+$0
+
+* Notes                                                            :noexport:
+* Instructions                                                     :noexport:

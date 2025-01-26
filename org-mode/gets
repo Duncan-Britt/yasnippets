@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: gets
+# key: ;g
+# --
+\gets $0
