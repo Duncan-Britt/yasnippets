@@ -3,7 +3,10 @@
 # --
 #+title: ${1:A Journey to the Moon}
 #+author: ${2:Duncan Britt}
-#+options: toc:nil num:nil author:nil date:nil
+#+options: toc:nil num:nil author:nil date:nil todo:nil
+# Next 2 lines are used to set the font:
+#+latex_header: \usepackage{fontspec}
+#+latex_header: \setmainfont{Athelas}
 #+latex_class_options: [letterpaper,12pt,twoside]
 # To set the margins:
 #+latex_header: \usepackage[margin=1in]{geometry}
@@ -12,8 +15,6 @@
 # To decrease/set the vertical space between the top of the page and the title:
 #+latex_header: \usepackage{titling}
 #+latex_header: \setlength{\droptitle}{-3em}
-# Edward Tuftian (Bembo-like) font:
-#+latex_header: \usepackage{ETbb}
 # To set the vertical line spacing
 #+latex_header: \usepackage{setspace}
 #+latex_header: \setstretch{1.00}
@@ -22,14 +23,13 @@
 # To modify link styles via the hyperref package options:
 #+latex_header: \hypersetup{linktoc = all, colorlinks = true, linkcolor = blue, citecolor = blue}
 #+latex_header: \usepackage{fancyhdr}
-#+bibliography: hw1.bib
+#+bibliography: hw$3.bib
 
 #+begin_export latex
 \vspace{-8em}
 \thispagestyle{fancy}
 \pagestyle{fancy}
 \fancyhead{}
-\fancyfoot{}
 
 \fancyhead[L]{
   ASEN 3036 Introduction to Human Spaceflight\\\\
@@ -47,5 +47,9 @@
 
 $0
 
+* Outline                                                          :noexport:
 * Notes                                                            :noexport:
 * Instructions                                                     :noexport:
+* Bibliography
+#+print_bibliography:
+#+cite_export: csl ieee.csl

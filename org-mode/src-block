@@ -3,6 +3,6 @@
 # key: ;src
 # --
 
-#+begin_src ${1:lisp} :async
+#+begin_src ${1:emacs-lisp}
 $0
 #+end_src
